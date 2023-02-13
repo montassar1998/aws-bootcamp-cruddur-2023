@@ -1,0 +1,2 @@
+$ aws sns create-topic --name unusual-spike
+$ aws sns subscribe --topic-arn="arn:aws:sns:us-east-1:482226971318:unusual-spike" --protocol=email --notification-endpoint=montassarriahi@aol.com
